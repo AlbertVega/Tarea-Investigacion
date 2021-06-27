@@ -23,27 +23,27 @@ public class Calculadora {
         System.out.println("La tangente de " + AngleInDegrees + "° = " + result);
 
         //CALCULATE THE ARCSIN
-       result = Math.asin(AngleInRadians);
-       System.out.println("El arcseno de " + AngleInDegrees + "° = " + result);
+        result = Math.asin(AngleInRadians);
+        System.out.println("El arcoseno de " + AngleInDegrees + "° = " + result);
 
         //CALCULATE THE ARCCOS
-       result = Math.acos(AngleInRadians);
-       System.out.println("El arccoseno de " + AngleInDegrees + "° = " + result);
+        result = Math.acos(AngleInRadians);
+        System.out.println("El arcocoseno de " + AngleInDegrees + "° = " + result);
 
         //CALCULATE THE ARCTAN
         result = Math.atan(AngleInRadians);
-        System.out.println("La arctangente de " + AngleInDegrees + "° = " + result);
+        System.out.println("La arcotangente de " + AngleInDegrees + "° = " + result);
 
         //CALCULATE THE SINH
         result = Math.sinh(AngleInRadians);
-        System.out.println("El seno hiperbolico de " + AngleInDegrees + "° = " + result);
+        System.out.println("El seno hiperbólico de " + AngleInDegrees + "° = " + result);
 
         //CALCULATE THE COSH
         result = Math.cosh(AngleInRadians);
-        System.out.println("El coseno hiperbolico  de " + AngleInDegrees + "° = " + result);
+        System.out.println("El coseno hiperbólico  de " + AngleInDegrees + "° = " + result);
 
         //CALCULATE THE TANH
         result = Math.tanh(AngleInRadians);
-        System.out.println("La tangente hiperbolica de " + AngleInDegrees + "° = " + result);
+        System.out.println("La tangente hiperbólica de " + AngleInDegrees + "° = " + result);
     }
 }
